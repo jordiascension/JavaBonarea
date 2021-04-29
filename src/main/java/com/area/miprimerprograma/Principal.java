@@ -21,10 +21,10 @@ public class Principal {
                 calculadora.suma(4, 2));     
         
         System.out.println("El resultado de la suma con decimales es " +
-                calculadora.suma(new BigDecimal(1.505), new BigDecimal(1.440))); 
+                calculadora.suma(new BigDecimal("1.505"), new BigDecimal("1.440"))); 
         
-        BigDecimal num1= new BigDecimal(1.505);
-        BigDecimal num2= new BigDecimal(1.440);
+        BigDecimal num1= new BigDecimal("1.505");
+        BigDecimal num2= new BigDecimal("1.440");
         //1.945--1.94
         //1.955--1.96
         System.out.println("El resultado de la suma con decimales es " +

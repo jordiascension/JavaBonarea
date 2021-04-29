@@ -26,7 +26,7 @@ public class Calculadora {
     public BigDecimal suma(BigDecimal num1, BigDecimal num2){
          BigDecimal resultado = num1.add(num2);
          BigDecimal rounded = resultado.setScale(2, RoundingMode.HALF_EVEN);
-         return rounded;
+         return rounded;        
     }
 	
     public int resta(int num1, int num2) {
