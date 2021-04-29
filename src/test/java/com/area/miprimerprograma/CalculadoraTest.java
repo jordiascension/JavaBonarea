@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class CalculadoraTest {
     
-    Calculadora calculadora=new Calculadora();
+    Calculadora calculadora = new Calculadora();
     
     @Test
     void testSuma() {
